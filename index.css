@@ -6,6 +6,34 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.projects{
+    color: #f8f9fa
+}
+
+@media (max-width: 1024px) {
+  body {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 12px;
+  }
 }
 
 .pdp{
@@ -13,9 +41,10 @@ body{
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
+
+    padding: 1em;
 }
 
 .socials {
@@ -38,7 +67,21 @@ body{
 }
 
 .rootmelogo{
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.4em;
+    height: 2.4em;
     border-radius: 50%;
+}
+
+.Write-ups{
+    border : 1px solid #f8f9fa;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 15px;
+}
+
+.Linux-Setup-Script{
+    border : 1px solid #f8f9fa;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 20px;
 }
