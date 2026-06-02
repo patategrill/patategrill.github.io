@@ -1,20 +1,20 @@
 body{
-    background-color: #111111;
-    color: #f8f9fa;
-    font-family: "Inter", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #111111;
+  color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 24px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .projects{
-    color: #f8f9fa
+  color: #f8f9fa
 }
 
 @media (max-width: 1024px) {
@@ -37,39 +37,39 @@ body{
 }
 
 .pdp{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 
-    padding: 1em;
+  padding: 1em;
 }
 
 .socials {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .githublogo:hover, .rootmelogo:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
 }
 
 .githublogo{
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
 }
 
 .rootmelogo{
-    width: 2.3em;
-    height: 2.3em;
-    border-radius: 50%;
+  width: 2.3em;
+  height: 2.3em;
+  border-radius: 50%;
 }
 
 .Write-ups{
@@ -80,10 +80,10 @@ body{
 }
 
 .Linux-Setup-Script{
-    border : 1px solid #f8f9fa;
-    border-radius: 8px;
-    padding: 1em;
-    margin-bottom: 20px;
+  border : 1px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 20px;
 }
 
 a{
@@ -93,4 +93,11 @@ a{
 
 a:hover{
   transform: scale(1.05);
+}
+
+.Microbit{
+  border : 1px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 20px;
 }
