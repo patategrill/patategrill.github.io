@@ -67,16 +67,16 @@ body{
 }
 
 .rootmelogo{
-    width: 2.4em;
-    height: 2.4em;
+    width: 2.3em;
+    height: 2.3em;
     border-radius: 50%;
 }
 
 .Write-ups{
-    border : 1px solid #f8f9fa;
-    border-radius: 8px;
-    padding: 1em;
-    margin-bottom: 15px;
+  border : 1px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 15px;
 }
 
 .Linux-Setup-Script{
@@ -84,4 +84,13 @@ body{
     border-radius: 8px;
     padding: 1em;
     margin-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #f8f9fa
+}
+
+a:hover{
+  transform: scale(1.05);
 }
