@@ -95,6 +95,13 @@ a:hover{
   transform: scale(1.05);
 }
 
+.MownOS{
+  border : 1px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 20px;
+}
+
 .Microbit{
   border : 1px solid #f8f9fa;
   border-radius: 8px;
